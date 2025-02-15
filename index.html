@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SVC | Luxury Car Financing</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
 
@@ -12,7 +13,12 @@
         <div class="container">
             <h1>Farsadio's Auto Loans</h1>
             <nav>
-                <ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-list">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -32,17 +38,19 @@
     <section id="services">
         <div class="container">
             <h2>Why Choose Us?</h2>
-            <div class="service-box">
-                <h3>Luxury Car Financing</h3>
-                <p>Tailored auto loans for high-end and exotic vehicles.</p>
-            </div>
-            <div class="service-box">
-                <h3>Exclusive Interest Rates</h3>
-                <p>Get premium rates designed for luxury car buyers.</p>
-            </div>
-            <div class="service-box">
-                <h3>VIP Approval Process</h3>
-                <p>Fast approvals with white-glove service.</p>
+            <div class="services-wrapper">
+                <div class="service-box">
+                    <h3>Luxury Car Financing</h3>
+                    <p>Tailored auto loans for high-end and exotic vehicles.</p>
+                </div>
+                <div class="service-box">
+                    <h3>Exclusive Interest Rates</h3>
+                    <p>Get premium rates designed for luxury car buyers.</p>
+                </div>
+                <div class="service-box">
+                    <h3>VIP Approval Process</h3>
+                    <p>Fast approvals with white-glove service.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -63,7 +71,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Elite Auto Loans. All rights reserved.</p>
+            <p>&copy; 2025 Farsadio's Auto Loans. All rights reserved.</p>
         </div>
     </footer>
 
